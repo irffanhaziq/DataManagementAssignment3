@@ -42,7 +42,7 @@ spark = SparkSession.builder.getOrCreate()
 iris = spark.read.csv("/user/maria_dev/irffan/Iris.csv", inferSchema=True, header=True)
 iris.show()
 ```
-
+https://github.com/irffanhaziq/DataManagementAssignment3/blob/main/Screenshot%202024-06-13%20115550.png
 ### Convert the Spark DataFrame to a pandas DataFrame
 ```
 iris_pdf = iris.toPandas()
