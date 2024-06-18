@@ -1,5 +1,10 @@
 # Iris : Classification Using Spark MLlib
+## Introduction 
+The Iris dataset is a well-known and widely used dataset in the field of machine learning and statistics. It consists of 150 samples of iris flowers, each described by four features: sepal length, sepal width, petal length, and petal width. The dataset is divided into three classes, each representing a different species of iris which are Iris setosa, Iris versicolor, and Iris virginica. This dataset is often used for testing and benchmarking classification algorithms due to its simplicity and the clear distinction between the classes.
 
+In this assignment, leverage Apache Spark's MLlib, a powerful machine learning library, to perform classification on the Iris dataset. Spark MLlib provides scalable machine learning algorithms and tools, making it suitable for handling large datasets and complex computations. The goal is to build a classification model that accurately predicts the species of an iris flower based on its features.
+
+![Alt text](https://github.com/irffanhaziq/DataManagementAssignment3/blob/main/Screenshot%202024-06-13%20115550.png)
 ## Project Summary
 
 This project involves the classification tasks on the Iris dataset using Spark MLlib. The key steps covered in this project include:
