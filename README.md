@@ -88,6 +88,9 @@ grid_search.fit(X_train, y_train)
 print("Best Hyperparameters:", grid_search.best_params_)
 print("Best Accuracy:", grid_search.best_score_)
 ```
+('Best Hyperparameters:', {'min_samples_split': 10, 'n_estimators': 50, 'max_dep                                     th': 15, 'min_samples_leaf': 10})
+
+('Best Accuracy:', 0.9666666666666667)
 
 ### Train the model with the best hyperparameters
 ```
@@ -105,32 +108,31 @@ y_pred = best_clf.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print("ACCURACY OF THE MODEL:", accuracy)
 ```
+('ACCURACY OF THE MODEL:', 0.9666666666666667)
 
 ### Calculate the precision of the model
 ```
 precision = precision_score(y_test, y_pred, average='weighted')
 print("PRECISION OF THE MODEL:", precision)
 ```
-
+('PRECISION OF THE MODEL:', 0.9714285714285714)
 ### Calculate the recall of the model
 ```
 recall = recall_score(y_test, y_pred, average='weighted')
 print("RECALL OF THE MODEL:", recall)
 ```
-
+('RECALL OF THE MODEL:', 0.9666666666666667)
 ### Calculate the F1 score of the model
 ```
 f1 = f1_score(y_test, y_pred, average='weighted')
 print("F1 SCORE OF THE MODEL:", f1)
-
-print(y_test)
-print(y_pred)
 ```
-
+('F1 SCORE OF THE MODEL:', 0.9672820512820512)
 ### Create a DataFrame to show y_test and y_pred side by side
 ```
 results_df = pd.DataFrame({'Actual': y_test.values, 'Predicted': y_pred})
 print(results_df)
 spark.stop()
 ```
+![Alt text](https://github.com/irffanhaziq/DataManagementAssignment3/blob/main/Screenshot%202024-06-13%20t115550.png)
 
