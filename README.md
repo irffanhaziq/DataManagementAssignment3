@@ -134,5 +134,5 @@ results_df = pd.DataFrame({'Actual': y_test.values, 'Predicted': y_pred})
 print(results_df)
 spark.stop()
 ```
-![Alt text](https://github.com/irffanhaziq/DataManagementAssignment3/blob/main/Screenshot%202024-06-13%20t115550.png)
+![Alt text](https://github.com/irffanhaziq/DataManagementAssignment3/blob/main/Screenshot%202024-06-13%20150917.png)
 
