@@ -93,9 +93,13 @@ grid_search.fit(X_train, y_train)
 print("Best Hyperparameters:", grid_search.best_params_)
 print("Best Accuracy:", grid_search.best_score_)
 ```
-('Best Hyperparameters:', {'min_samples_split': 10, 'n_estimators': 50, 'max_dep                                     th': 15, 'min_samples_leaf': 10})
+('Best Hyperparameters:', {'min_samples_split': 10, 'n_estimators': 50, 'max_depth': 15, 'min_samples_leaf': 10})
+
+Min_samples_split: 10, which is the minimum number of samples required to split an internal node in the decision tree. This contributes to avoiding overfitting because of high values that force nodes to have more samples before they can be split.
+N estimators: 10; it is the number of trees in the ensemble—in case a random forest model is to be used. More trees make a better model, but they increase computational complexity. max_depth: 'None' indicates that there is no constrain on the depth of each tree in the ensemble, and that the trees will keep growing until all the leaves are pure or contain fewer than min_samples_split samples. Minimum samples at leaf: 5 This is the minimum number of samples that are required to be at a leaf node. This mainly controls the size of the tree and could prevent overfitting when the leaf nodes have at least this number of samples.
 
 ('Best Accuracy:', 0.9666666666666667)
+
 
 ### Train the model with the best hyperparameters
 ```
