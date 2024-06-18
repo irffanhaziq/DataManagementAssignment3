@@ -4,7 +4,7 @@ The Iris dataset is a well-known and widely used dataset in the field of machine
 
 In this assignment, leverage Apache Spark's MLlib, a powerful machine learning library, to perform classification on the Iris dataset. Spark MLlib provides scalable machine learning algorithms and tools, making it suitable for handling large datasets and complex computations. The goal is to build a classification model that accurately predicts the species of an iris flower based on its features.
 
-![Alt text](https://github.com/irffanhaziq/DataManagementAssignment3/blob/main/Screenshot%202024-06-13%20115550.png)
+![Alt text](https://github.com/irffanhaziq/DataManagementAssignment3/blob/main/flower-76336_640%20(1).jpg)
 ## Project Summary
 
 This project involves the classification tasks on the Iris dataset using Spark MLlib. The key steps covered in this project include:
