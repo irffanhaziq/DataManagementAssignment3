@@ -42,7 +42,7 @@ spark = SparkSession.builder.getOrCreate()
 iris = spark.read.csv("/user/maria_dev/irffan/Iris.csv", inferSchema=True, header=True)
 iris.show()
 ```
-https://github.com/irffanhaziq/DataManagementAssignment3/blob/main/Screenshot%202024-06-13%20115550.png
+![Alt text](https://github.com/irffanhaziq/DataManagementAssignment3/blob/main/Screenshot%202024-06-13%20115550.png)
 ### Convert the Spark DataFrame to a pandas DataFrame
 ```
 iris_pdf = iris.toPandas()
@@ -53,7 +53,9 @@ iris_pdf = iris.toPandas()
 iris_pdf['Species'] = pd.factorize(iris_pdf['Species'])[0]
 
 print(iris_pdf.head())
-
+```
+![Alt text](https://github.com/irffanhaziq/DataManagementAssignment3/blob/main/Screenshot%202024-06-13%20t115550.png)
+```
 X = iris_pdf.drop(['Id', 'Species'], axis=1)
 y = iris_pdf['Species']
 
