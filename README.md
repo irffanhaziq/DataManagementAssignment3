@@ -1,1 +1,1 @@
-# Iris C lassification Using Spark MLlib
+# Iris Classification Using Spark MLlib
