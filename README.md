@@ -166,3 +166,8 @@ spark.stop()
 ```
 ![Alt text](https://github.com/irffanhaziq/DataManagementAssignment3/blob/main/Screenshot%202024-06-13%20150917.png)
 
+## Conclusion
+
+The performance of the Random Forest Classifier after grid search cross-validation on the Iris dataset turned out very good, with an accuracy of 96.67%. This high accuracy was complemented by a similarly high precision, recall, and F1 score, proving the efficacy of the modeled classifier in classifying iris species. These strong metrics in performance indicate that this model will generalize well to unseen data and therefore could be reliably used for this sort of classification.
+
+This project goes a long way to demonstrate the power and ease of use of Spark MLlib in machine learning, especially over large datasets and complex computations. Although the Iris dataset was very simple, it went a long way to explain how to build, train, and then evaluate a classification model using Spark MLlib.
