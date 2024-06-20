@@ -128,7 +128,7 @@ y_pred = best_clf.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print("ACCURACY OF THE MODEL:", accuracy)
 ```
-('ACCURACY OF THE MODEL:', 0.9666666666666667)
+**('ACCURACY OF THE MODEL:', 0.9666666666666667)**
 
 The accuracy of the model on the test data is approximately 96.67%. This means that 96.67% of the predictions made by the model on the test set are correct.
 ### Calculate the precision of the model
@@ -136,7 +136,7 @@ The accuracy of the model on the test data is approximately 96.67%. This means t
 precision = precision_score(y_test, y_pred, average='weighted')
 print("PRECISION OF THE MODEL:", precision)
 ```
-('PRECISION OF THE MODEL:', 0.9714285714285714)
+**('PRECISION OF THE MODEL:', 0.9714285714285714)**
 
 Precision is the ratio of true positive predictions to the total number of positive predictions. In this case, it is approximately 97.14%. This means that when the model predicts a class, it is correct 97.14% of the time.
 
@@ -145,7 +145,7 @@ Precision is the ratio of true positive predictions to the total number of posit
 recall = recall_score(y_test, y_pred, average='weighted')
 print("RECALL OF THE MODEL:", recall)
 ```
-('RECALL OF THE MODEL:', 0.9666666666666667)
+**('RECALL OF THE MODEL:', 0.9666666666666667)**
 
 Recall is the ratio of true positive predictions to the total number of actual positives. Here, it is approximately 96.67%, indicating that the model successfully identifies 96.67% of the actual positive instances.
 
@@ -154,7 +154,7 @@ Recall is the ratio of true positive predictions to the total number of actual p
 f1 = f1_score(y_test, y_pred, average='weighted')
 print("F1 SCORE OF THE MODEL:", f1)
 ```
-('F1 SCORE OF THE MODEL:', 0.9672820512820512)
+**('F1 SCORE OF THE MODEL:', 0.9672820512820512)**
 
 The F1 score is the harmonic mean of precision and recall. It provides a balance between precision and recall, being approximately 96.73% in this case. A high F1 score indicates a model with both high precision and recall.
 
